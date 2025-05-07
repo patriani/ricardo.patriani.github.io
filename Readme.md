@@ -14,14 +14,15 @@ Obrigado!
 
 - Adicionar todos os styles para arquivo css
 - Remover trechos de cógido descessários ou comentários incorretos (copy/paste)
+- Transformar as hashtags em links
 
 
 ## TO-DO curriculo:
 - ajustar overleaf
 - remover local de moradia
 - tirar documentação de novas features do OGG como atividades realizadas 
-
-
+- Remover tanto detalhe das atividades, principalmente das que se tornaram menos relevantes - tornar mais parecido com o portfólio
+- melhorar descrição dos projetos com base no descrito neste documento
 
 License: https://bootstrapmade.com/license/
 
