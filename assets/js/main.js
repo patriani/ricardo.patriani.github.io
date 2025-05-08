@@ -235,6 +235,7 @@
   /**
    * Testimonials slider
    */
+  /* --> Versão para apenas um slide por vez:
   new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
@@ -248,7 +249,36 @@
       type: 'bullets',
       clickable: true
     }
+  });*/
+  
+/*Versão para dois slides por vez*/
+  new Swiper('.testimonials-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 2, // Mostra 2 slides
+    spaceBetween: 30, // Espaço entre os slides (opcional)
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      768: {
+        slidesPerView: 2
+      }
+    }
   });
+  
+
+
+
 
   /**
    * Animation on scroll
